@@ -8,7 +8,7 @@ module.exports = {
       allowedIssuers: ["*"],
       type: "KYCAgeCredential",
       context:
-        "https://raw.githubusercontent.com/iden3/claim-schema-vocab/main/schemas/json-ld/kyc-v3.json-ld",
+        "ipfs://QmNrh9PcurEpH9KmdjJjSsjWkpdD8HVsM5p8tViVkqqcMv",
       credentialSubject,
     },
   }),

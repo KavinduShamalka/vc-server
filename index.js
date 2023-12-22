@@ -35,14 +35,17 @@ const apiPath = {
   handleVerification: "/api/verification-callback",
 };
 
+// Get request
 app.get(apiPath.getAuthQr, (req, res) => {
   getAuthQr(req, res);
 });
 
+// Post request
 app.post(apiPath.handleVerification, (req, res) => {
   handleVerification(req, res);
 });
 
+// Status messages
 const STATUS = {
   IN_PROGRESS: "IN_PROGRESS",
   ERROR: "ERROR",
